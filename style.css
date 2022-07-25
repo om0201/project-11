@@ -102,16 +102,17 @@ img[alt="logo"] {
 
 .section-2-container {
   display: flex;
+  height: fit-content;
 }
 
 .section-2-left-container {
-  background: url(assets/security.svg);
-  flex-basis: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-basis: 70%;
+  background: url(assets/svgviewer-output.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .left-2-img {
-  height: 100%;
+  /* width: 50vw;
+  height: 50vh; */
 }
